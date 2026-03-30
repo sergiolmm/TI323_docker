@@ -15,6 +15,8 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                     "https://www.sergio.dev.br",   // produção
                     "http://www.sergio.dev.br",    // produção sem SSL
+                    "https://ti323-front.onrender.com",
+                    "http://ti323-front.onrender.com",
                     "http://localhost:3000"         // desenvolvimento local
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
